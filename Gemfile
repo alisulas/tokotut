@@ -29,15 +29,17 @@ gem 'country_select'
 
 group :test do
   gem 'minitest-rails'
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails'  
+  gem 'guard-minitest',     '2.3.1'
+  gem 'minitest-reporters', '1.0.5'
 end
 
 group :development, :test do
-  gem 'byebug'
+  gem 'byebug'  
+  gem 'web-console', '~> 2.0'
+  gem 'spring'
 end
 
 group :development do
-  gem 'web-console', '~> 2.0'
-  gem 'spring'
 end
 
