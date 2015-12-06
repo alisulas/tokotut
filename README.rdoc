@@ -1,28 +1,24 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Simple e-commerce app build for Small Business Owner to quickly make a profit.
 
-Things you may want to cover:
+Feature:
 
-* Ruby version
+User: Admin can do the basic functionality of small shop in real world: Add Product, manage order, manage inventory, etc
+User: Buyer can order and pay with credit card
 
-* System dependencies
+Tech Stack:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Ruby 2.2.3
+Rails 4.2.4
+Minitest
+Guard
+Haml
+bootstrap
+puma
+devise
+country_select
 
 
-Please feel free to use a different markup language if you do not plan to run
+
 <tt>rake doc:app</tt>.
